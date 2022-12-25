@@ -10,10 +10,10 @@ const Skills = () => {
     
 
 
-    className='h-fit relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-secreen justify-center xl:space-y-0 mx-auto items-center '>
+    className='h-fit relative flex flex-col overflow-hidden text-left md:flex-row  px-4 sm:px-10 justify-evenly mx-auto items-center'>
       <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>skills </h3>
       <h3 className='absolute top-44 uppercase tracking-[3px] text-gray-500 text-sm'>Hover over for proficiency</h3>
-      <div className='grid grid-cols-4 gap-5 px-6 pt-48'>
+      <div className='grid grid-cols-3 md:grid-cols-4 mt-36 mb-14 gap-8 md:gap-10 snap-x snap-mandatory'>
         <Skill />
         <Skill />
         <Skill />
