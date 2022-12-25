@@ -19,7 +19,7 @@ const Projects = () => {
             transition={{duration:1.2}}
             whileInView={{y:0, opacity:1}}
             viewport={{once: true}}
-            src="https://media.licdn.com/dms/image/C4D2DAQFlgzrd7pNa3w/profile-treasury-image-shrink_800_800/0/1659171338365?e=1672221600&v=beta&t=BKhWx87yq116V4VCtD5gjubU2OfCDgFHExXwODUzp9g"
+            src="/projects/math-magicians.png"
             alt="project" 
             className='w-60'
             />
