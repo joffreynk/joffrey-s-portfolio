@@ -1,5 +1,6 @@
 import {motion } from 'framer-motion';
 import Image from 'next/image';
+import styles from './styles.module.css'
 
 
 
@@ -7,7 +8,7 @@ const About = () => {
   return (
     <div className="h-screen min-h-fit flex flex-col relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center">
 
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-4xl">About</h3>
+      <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>About</h3>
     
     <div className='mt-24  xs:top-32  flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
      

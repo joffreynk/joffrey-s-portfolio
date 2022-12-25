@@ -1,13 +1,13 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-
+import styles from './styles.module.css'
 
 const Projects = () => {
   const projects = [1,2,3,4,5]
   return (
     <div
     className='h-fit relative flex flex-col overflow-hidden text-left md:flex-row max-w-4/5 justify-evenly mx-auto items-center z-0 '>
-      <h3 className='absolute top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-4xl'>projects</h3>
+      <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>projects</h3>
       <div className='relative w-full flex overflow-y-hidden snap-x snap-mandatory z-20 mt-16'>
         {projects.map((project, i)=>{
           return <div key={i+1} className='w-screen md:w-1/2 flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-32 h-screen'>

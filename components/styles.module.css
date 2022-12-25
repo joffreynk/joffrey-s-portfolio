@@ -1,8 +1,14 @@
 .expericenceBorder {
     background-image: linear-gradient(90deg, rgb(29, 29, 29), rgb(29, 29, 29)),
-      linear-gradient(90deg, hsl(289, 65%, 64%), hsl(226, 78%, 67%));
+      linear-gradient(90deg, hsl(289, 65%, 64%), hsl(226, 78%, 67%), hsl(266, 78%, 55%));
     background-clip: padding-box, border-box;
     background-origin: border-box;
     border-color: transparent;
     border-radius: 1.75rem;
   }
+
+.headertext {
+  background: linear-gradient(90deg, hsl(289, 65%, 64%), hsl(226, 78%, 67%),  hsl(30, 2%, 19%));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
