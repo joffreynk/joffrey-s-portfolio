@@ -5,15 +5,16 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div className="h-fit flex flex-col relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center">
+    <div className="h-screen min-h-fit flex flex-col relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center">
 
       <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-4xl">About</h3>
     
-    <div className='mt-24 flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
+    <div className='mt-24  xs:top-32  flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
      
-        <div className=''>
+        <motion.div className='hidden es:flex justify-center items-center  float-right  w-32 h-32 es:w-72 es:h-72 md:w-2/3 md:h-2/3 xl:w-3/4  xl:h-3/4'>
+
         
-          <motion.img
+          <Image
 
             initial ={{
               x: -150,
@@ -28,14 +29,16 @@ const About = () => {
               opacity:1,
               x:0
             }}
+            width={300}
+            height={300}
 
               src={"/professionalpicture.jpg"}
 
               alt="my professional picture"
 
-              className='md:mb-0 w-56 h-56 flex-shrink-0 float-right rounded-full object-cover md:rounded-lg md:w-2/3 md:h-2/3 xl:w-3/4  xl:h-3/4'
+              className='w-[80%] h-[80%]  p-0 m-0  flex-shrink-0  rounded-full object-cover md:rounded-lg'
           />
-        </div>
+        </motion.div>
 
           <motion.div
           initial ={{
@@ -52,16 +55,14 @@ const About = () => {
             x:0
           }}
           
-          className="space-y-10 px-0 md:px-10 flex-grow">
+          className="space-y-10  px-0 md:px-10 flex-grow xs:w-full">
             <h5 className='text-2xl mt-3 font-semibold text-center'>
-              Here is a little about me
+              Biography
             </h5>
-            <p className='mt-0 pt-0'>
-            Hello I&#39;m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don&#36t hestiate to contact me
-            <br />
-            Hello I&#39;m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don&#36t hestiate to contact me
-            <br />
-
+            <p className='mt-0 pt-0 text-[18px]'>
+              With computer science degree, I'm Full-stack developer and open-source enthusiast with a love for clean code and accessible design. Pair-programming, problem-solving, and remote work specialist.
+              <br/>
+              I can help you to build product, feature, website. Look through my skills, projects and experiences. Don't hesitate to contact me.
             </p>
         </motion.div>
       </div>
