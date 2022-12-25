@@ -1,11 +1,12 @@
 import {motion} from 'framer-motion';
 import Image from 'next/image'
 
+import styles from './styles.module.css'
 
 
 const ExperienceCard = () => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-3 flex-shrink-0 w-[300px] md:w-[450px] xl:w-[600px] snap-x-center py-5 bg-[#292929] opacity-50 duration-200 cursor-pointer transition-opacity hover:opacity-100 overflow-hidden'>
+    <article className={`flex flex-col rounded-md ${styles.expericenceBorder}  border-4 md:border-8 justify-items-center items-center  space-y-3 flex-shrink-0  snap-x-center py-5 bg-[#292929] opacity-70 duration-200 cursor-pointer transition-opacity hover:opacity-100`}>
       <motion.div
       initial={{
         y:-100,
