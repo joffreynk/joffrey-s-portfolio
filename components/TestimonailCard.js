@@ -1,10 +1,11 @@
 import {motion} from 'framer-motion';
+import { SocialIcon } from 'react-social-icons'
 import Image from 'next/image'
 
 import styles from './styles.module.css'
 
 
-const TestimonailCard = () => {
+const TestimonailCard = ({person}) => {
   return (
     <article className={`flex flex-col rounded-md ${styles.testimonials}  border justify-items-center items-center  space-y-3 flex-shrink-0  snap-x-center py-5 bg-[#292929] opacity-70 duration-200 cursor-pointer transition-opacity hover:opacity-100`}>
       <motion.div
@@ -23,7 +24,7 @@ const TestimonailCard = () => {
       }}
       >
         <Image
-        src='/testimonials/david.jpeg'
+        src={person.picture}
         width={128}
         height={128}
         alt='Experience picture'
@@ -31,12 +32,19 @@ const TestimonailCard = () => {
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-lg md:text-xl xl:text-2xl font-light  text-gray-400'>David Vera Castillo</h4>
+        <h4 className='text-lg md:text-xl xl:text-2xl font-light  text-gray-400'>{person.name}</h4>
       </div>
-      <p className=' text-gray-400 px-6' >
-      Joffrey is a remarkable developer. I know him because we worked together during the first weeks in Microverse, which were the most challenging. He is a reliable partner and skilled programmer. We were able to develop projects with tight deadlines, and he always had a great learning attitude while being generous with his knowledge. Our team benefitted a lot from his contributions when pair programming. I'm sure he will be an asset for any team he's on!
+      <p className='text-base text-gray-400 px-6' >
+      {person.quote}
       </p>
-      
+      <div className='self-end flex justify-center items-center gap-0'>
+      <p className='text-2xl m-0 p-0'>visit:</p>
+      <SocialIcon
+          url={person.url}
+          fgColor='blue'
+          bgColor='transparent'
+        /> 
+      </div>
     </article>
   )
 }
