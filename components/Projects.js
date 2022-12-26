@@ -14,12 +14,12 @@ const Projects = () => {
           return <div key={i+1} className={`flex-shrink-0 snap-center flex flex-col items-center justify-center py-6 px-3 ${styles.expericenceBorder}`}>
             <motion.div
             initial={{
-              y:-300,
+              y:-200,
               opacity:0
             }}
             transition={{duration:1.2}}
             whileInView={{y:0, opacity:1}}
-            viewport={{once: true}}
+            // viewport={{once: true}}
             >
             <Image
             src="/projects/math-magicians.png"
@@ -31,8 +31,8 @@ const Projects = () => {
             </motion.div>
             
             <div className='p-4 max-w-4xl'>
-              <h4 className='text-2xl sm:text-4xl md:text-4xl font-semibold text-center py-2 '>Books store</h4>
-              <p className='text-base sm:text-xl text-justify space-x-1 break-all'>
+              <h4 className='text-2xl sm:text-4xl md:text-4xl font-semibold text-center py-2 text-gray-400 '>Books store</h4>
+              <p className='text-base sm:text-xl text-justify space-x-1 break-all  text-gray-400'>
                 React-Redux book store application is an application that helps libraries to manage their books in the store. A librarian can add or remove the book from the store. a teacher who is using that book can track the progress of the book and what he has already taught
                 </p>
             </div>

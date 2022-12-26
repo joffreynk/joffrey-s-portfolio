@@ -33,8 +33,8 @@ const ExperienceCard = () => {
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-xl md:text-2xl xl:text-5xl font-light'>FuLL stack</h4>
-        <p className='font-bold text-2xl mt-1'>Microverse</p>
+        <h4 className='text-xl md:text-2xl xl:text-5xl font-light  text-gray-400'>FuLL stack</h4>
+        <p className='font-bold text-2xl mt-1 text-gray-400'>Microverse</p>
         <div className='flex space-x-2 my-2'>
           <Image
           src='/technologies/css3.png'
@@ -65,10 +65,10 @@ const ExperienceCard = () => {
           height={40}
            />
         </div>
-        <p className='py-2'>April 18, 2022 - Now</p>
+        <p className='py-2 text-gray-400'>April 18, 2022 - Now</p>
 
       </div>
-        <ul className='list-disc space-y-1 xl:space-y-4 px-3 ml-5 text-lg'>
+        <ul className='list-disc space-y-1 xl:space-y-4 px-3 ml-5 text-lg  text-gray-400'>
           <li>Designation and elaboration of the program</li>
           <li>Taught 1000+ people computer science</li>
           <li>7 months of technical support and computer maintenance</li>

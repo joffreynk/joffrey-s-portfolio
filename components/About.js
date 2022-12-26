@@ -18,7 +18,7 @@ const About = () => {
           <Image
 
             initial ={{
-              x: -150,
+              y: -300,
               opacity: 0,
             }}
 
@@ -28,7 +28,7 @@ const About = () => {
 
             whileInView={{
               opacity:1,
-              x:0
+              y:0
             }}
             width={300}
             height={300}
@@ -43,7 +43,7 @@ const About = () => {
 
           <motion.div
           initial ={{
-            x: 150,
+            y: 150,
             opacity: 0,
           }}
 
@@ -53,14 +53,16 @@ const About = () => {
 
           whileInView={{
             opacity:1,
-            x:0
+            y:0
           }}
+
+          // portView={{once:true}}
           
           className="space-y-10  px-0 md:px-10 flex-grow xs:w-full">
-            <h5 className='text-2xl mt-3 font-semibold text-center'>
+            <h5 className='text-2xl mt-3 font-semibold text-center  text-gray-400'>
               Biography
             </h5>
-            <p className='mt-0 pt-0 text-[18px]'>
+            <p className='mt-0 pt-0 text-[18px]  text-gray-400'>
               With computer science degree, I'm Full-stack developer and open-source enthusiast with a love for clean code and accessible design. Pair-programming, problem-solving, and remote work specialist.
               <br/>
               I can help you to build product, feature, website. Look through my skills, projects and experiences. Don't hesitate to contact me.

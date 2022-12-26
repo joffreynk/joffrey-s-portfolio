@@ -9,7 +9,7 @@
   }
 
 .headertext {
-  background: linear-gradient(90deg, hsl(289, 65%, 64%), hsl(226, 78%, 67%),  hsl(30, 2%, 19%));
+  background: linear-gradient(90deg, hsl(289, 52%, 60%), hsl(226, 78%, 67%),  hsl(30, 2%, 19%));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

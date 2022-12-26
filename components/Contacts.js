@@ -6,8 +6,8 @@ function Contacts() {
     <div className='h-screen relative flex flex-col overflow-hidden text-left md:flex-row max-w-4/5 justify-evenly mx-auto items-center z-0'>
     <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>Contacts</h3>
     <div className='flex flex-col space-y-10 mt-32'>
-      <h4 className='text-4xl font-semibold text-center'>I have what you are looking for{', '}
-        <span className='italic text-yellow-900'>drop your message  down</span>
+      <h4 className='text-4xl font-semibold text-center text-gray-400'>I have what you are looking for{', '}
+        <span className='italic text-violet-400'>drop your message  down</span>
       </h4>
       <form className='w-fit flex flex-col mx-auto'>
         <div className='flex flex-col  sm:flex-row sm:space-x-4'>
@@ -16,7 +16,7 @@ function Contacts() {
         </div>
         <input type="text" placeholder='email' name="" id="" className='contactInput'/>
         <textarea name="" placeholder='your message please' id="" className='contactInput'  />
-        <button className={`text-xl sm:text-2xl rounded-xl ${styles.button}`} >Submit</button>
+        <button className={`text-xl sm:text-2xl rounded-xl ${styles.button}  text-gray-400`} >Submit</button>
       </form>
     </div>
     </div>

@@ -21,7 +21,7 @@ const Introduction = () => {
         <h2 className=" text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software engineer
         </h2>
-        <h1 className="text-4xl lg:text-5xl font-semibold scroll-px-10">
+        <h1 className="text-2xl sm:text-4xl lg:text-5xl font-semibold scroll-px-10  text-gray-400">
           <Typewriter
               words={[
                   "Hi, there! I'm Joffrey;",
