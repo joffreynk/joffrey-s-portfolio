@@ -37,8 +37,8 @@ const Projects = () => {
                 </p>
             </div>
               <div className='flex justify-between w-full'>
-                <button className={` rounded-xl ${styles.button}`}>live</button>
-                <button className={`rounded-xl ${styles.button}`}>Demo</button>
+                <button className={` rounded-xl ${styles.button} text-xl`}>live</button>
+                <button className={`rounded-xl ${styles.button} text-xl`}>Demo</button>
               </div>
               <div className='w-full bg-[#f7ab8a]/10 ltf-0 h-[3px] mt-4 -skew-y-0' />
           </div>

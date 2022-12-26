@@ -9,14 +9,14 @@ function Contacts() {
       <h4 className='text-4xl font-semibold text-center'>I have what you are looking for{', '}
         <span className='italic text-yellow-900'>drop your message  down</span>
       </h4>
-      <form className='w-fit flex flex-col space-y-2 '>
-        <div className='flex space-x-2'>
+      <form className='w-fit flex flex-col mx-auto'>
+        <div className='flex flex-col  sm:flex-row sm:space-x-4'>
           <input type="text" placeholder='first Name' name="" id="" className='contactInput '/>
           <input type="text" name="" placeholder='last Name' id="" className='contactInput'/>
         </div>
         <input type="text" placeholder='email' name="" id="" className='contactInput'/>
         <textarea name="" placeholder='your message please' id="" className='contactInput'  />
-        <button >Submit</button>
+        <button className={`text-xl sm:text-2xl rounded-xl ${styles.button}`} >Submit</button>
       </form>
     </div>
     </div>
