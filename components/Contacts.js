@@ -10,7 +10,7 @@ function Contacts() {
         <span className='italic text-violet-400'>drop your message  down</span>
       </h4>
       <form className='w-fit flex flex-col mx-auto'>
-        <div className='flex flex-col  sm:flex-row sm:space-x-4'>
+        <div className='flex flex-col  md:flex-row md:space-x-4'>
           <input type="text" placeholder='first Name' name="" id="" className='contactInput '/>
           <input type="text" name="" placeholder='last Name' id="" className='contactInput'/>
         </div>

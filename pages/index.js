@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Introduction from '../components/Introduction';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Testimonials from '../components/Testimonials';
 import WorkingExperience from '../components/WorkingExperience';
 
 export default function Home() {
@@ -41,6 +42,11 @@ export default function Home() {
         <section id='projects' className='snap-start'>
         <Projects />
         </section>
+
+          {/* Experience */}
+          <section id='testimonials' className='snap-start'>
+          <Testimonials />
+        </section >
 
         {/* Contact Me */}
         <section id='contacts' className='snap-start'>
