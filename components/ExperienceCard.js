@@ -21,8 +21,6 @@ const ExperienceCard = () => {
         opacity:1,
         y: 0,
       }}
-
-      viewport = {{once: true}}
       >
         <Image
         src='/passport.jpg'
