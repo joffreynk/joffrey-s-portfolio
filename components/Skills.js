@@ -18,6 +18,8 @@ const Skills = () => {
       <div className='grid grid-cols-3 md:grid-cols-4 mb-14 gap-8 md:gap-10 snap-x snap-mandatory mt-52'>
 
 
+
+
       <div className='group relative flex cursor-pointer'>
         <div className={`uppercase border flex justify-center items-center text-6xl border-gray-500 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${commonStyles}`}>
           < TbBrandNextjs className='w-full h-full' />
@@ -25,7 +27,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>NextJs</p>
           </div>
 
         </div>
@@ -39,7 +41,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>ReactJs</p>
           </div>
 
         </div>
@@ -53,7 +55,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>Rails</p>
           </div>
 
         </div>
@@ -62,12 +64,12 @@ const Skills = () => {
 
       <div className='group relative flex cursor-pointer'>
         <div className={`uppercase border flex justify-center items-center text-6xl border-gray-500 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${commonStyles}`}>
-          < SiRedux className='w-full h-full' />
+          < SiRedux className='w-4/5 h-4/5' />
         </div>
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>Redux</p>
           </div>
 
         </div>
@@ -76,12 +78,12 @@ const Skills = () => {
 
       <div className='group relative flex cursor-pointer'>
         <div className={`uppercase border flex justify-center items-center text-6xl border-gray-500 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${commonStyles}`}>
-          < SiMysql className='w-full h-full' />
+          < SiMysql className='w-4/5 h-full' />
         </div>
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>MYSQL</p>
           </div>
 
         </div>
@@ -95,7 +97,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>MongoDB</p>
           </div>
 
         </div>
@@ -106,12 +108,11 @@ const Skills = () => {
         <div className={`uppercase border flex justify-center items-center text-6xl border-gray-500 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${commonStyles}`}>
           
           <Image className='w-full h-full' src='/sanity.webp' alt='sanity logo'  width={60} height={60} />
-          < SiPostgresql className='w-full h-full' />
         </div>
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>Sanity.io</p>
           </div>
 
         </div>
@@ -125,7 +126,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>Javascript</p>
           </div>
 
         </div>
@@ -139,7 +140,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>NodeJs</p>
           </div>
 
         </div>
@@ -153,7 +154,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>ExpressJS</p>
           </div>
 
         </div>
@@ -162,12 +163,12 @@ const Skills = () => {
 
       <div className='group relative flex cursor-pointer'>
         <div className={`uppercase border flex justify-center items-center text-6xl border-gray-500 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${commonStyles}`}>
-          < SiPostgresql className='w-full h-full' />
+          < SiPostgresql className='w-full h-4/5' />
         </div>
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>PostgreS</p>
           </div>
 
         </div>
@@ -181,7 +182,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>JAVA</p>
           </div>
 
         </div>
@@ -190,12 +191,12 @@ const Skills = () => {
 
       <div className='group relative flex cursor-pointer'>
         <div className={`uppercase border flex justify-center items-center text-6xl border-gray-500 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${commonStyles}`}>
-          < SiCss3 className='w-full h-full' />
+          < SiCss3 className='w-full h-4/5 mt-2' />
         </div>
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>CSS3</p>
           </div>
 
         </div>
@@ -209,7 +210,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>Tailwind</p>
           </div>
 
         </div>
@@ -225,7 +226,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>Webpack</p>
           </div>
 
         </div>
@@ -239,7 +240,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>HTML5</p>
           </div>
 
         </div>
@@ -253,7 +254,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>BootStrap</p>
           </div>
 
         </div>
@@ -268,7 +269,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>SASS</p>
           </div>
 
         </div>
@@ -282,7 +283,7 @@ const Skills = () => {
 
         <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>GraphQl</p>
           </div>
 
         </div>
@@ -294,9 +295,9 @@ const Skills = () => {
           < FaGitAlt className='w-full h-full' />
         </div>
 
-        <div className={`absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
+        <div className={`absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out  group-hover:bg-white ${commonStyles} z-10`}>
           <div className='flex items-center justify-center h-full'>
-            <p className='text-2xl font-bold text-black opacity-60 '>100</p>
+            <p className='text-2xl font-bold text-black opacity-60 '>git</p>
           </div>
 
         </div>

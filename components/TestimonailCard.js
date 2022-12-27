@@ -46,11 +46,7 @@ const TestimonailCard = ({person}) => {
       </div>
 
       <div className='px-0 md:px-10'>
-        <h4 className='text-lg md:text-xl xl:text-2xl font-light  text-gray-400'>{person.name}: <SocialIcon
-          url={person.url}
-          fgColor='blue'
-          bgColor='transparent'
-        /> </h4>
+        <h4 className='text-lg md:text-xl xl:text-2xl font-light  text-gray-400'>{person.name} </h4>
       </div>
       <div className='px-0 md:px-10'>
         <p className='text-base font-light  text-gray-400'>{person.position}</p>
