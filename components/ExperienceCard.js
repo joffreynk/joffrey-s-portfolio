@@ -1,10 +1,11 @@
 import {motion} from 'framer-motion';
 import Image from 'next/image'
+import {BsStarHalf} from 'react-icons/bs'
 
 import styles from './styles.module.css'
 
 
-const ExperienceCard = () => {
+const ExperienceCard = ({ex}) => {
   return (
     <article className={`flex flex-col rounded-md ${styles.expericenceBorder} border-transparent justify-items-center items-center  space-y-3 flex-shrink-0  snap-x-center py-5 bg-[#292929] opacity-70 duration-200 cursor-pointer transition-opacity hover:opacity-100`}>
       <motion.div
@@ -31,45 +32,17 @@ const ExperienceCard = () => {
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-xl md:text-2xl xl:text-5xl font-light  text-gray-400'>FuLL stack</h4>
-        <p className='font-bold text-2xl mt-1 text-gray-400'>Microverse</p>
-        <div className='flex space-x-2 my-2'>
-          <Image
-          src='/technologies/css3.png'
-          className='h-10 w-10 rounded-full'
-          alt='technology'
-          width={40}
-          height={40}
-           />
-           <Image
-          src='/technologies/rails.png'
-          className='h-10 w-10 rounded-full'
-          alt='technology'
-          width={40}
-          height={40}
-           />
-           <Image
-          src='/technologies/js.png'
-          className='h-10 w-10 rounded-full'
-          alt='technology'
-          width={40}
-          height={40}
-           />
-           <Image
-          src='/technologies/html5.png'
-          className='h-10 w-10 rounded-full'
-          alt='technology'
-          width={40}
-          height={40}
-           />
-        </div>
-        <p className='py-2 text-gray-400'>April 18, 2022 - Now</p>
+        <h4 className='text-xl xl:text-5xl font-light text-center text-gray-400'>{ex.job} </h4>
+        <p className='font-bold text-lg mt-1 text-gray-400 text-center'>{ex.company} - {ex.type}</p>
+        <p className='text-blue-400 flex justify-center items-center'><BsStarHalf/> <BsStarHalf/><BsStarHalf/><BsStarHalf/><BsStarHalf/></p>
+        <p className='py-2 text-gray-400 text-center'>{ex.years}</p>
+        <p className='text-blue-400 flex justify-center items-center'><BsStarHalf/> <BsStarHalf/><BsStarHalf/><BsStarHalf/><BsStarHalf/></p>
 
       </div>
-        <ul className='list-disc space-y-1 xl:space-y-4 px-3 ml-5 text-lg  text-gray-400'>
-          <li>Designation and elaboration of the program</li>
-          <li>Taught 1000+ people computer science</li>
-          <li>7 months of technical support and computer maintenance</li>
+        <ul className='list-disc  px-3 ml-5 text-lg  text-gray-400'>
+            {
+              ex.expr.map(sk => <li key={sk}>{sk}</li>)
+            }
         </ul>
       
     </article>
