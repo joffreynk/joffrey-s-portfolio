@@ -36,16 +36,16 @@ const Introduction = () => {
             />
           </h1>
           <div className="">
-            <Link href="about">
+            <Link href="#about">
             <button className="introButtons">about</button>
             </Link>
-            <Link href="experience">
+            <Link href="#experience">
             <button className="introButtons">experience</button>
             </Link>
-            <Link href="skills">
+            <Link href="#skills">
             <button className="introButtons">skills</button>
             </Link>
-            <Link href="projects">
+            <Link href="#projects">
             <button className="introButtons">projects</button>
             </Link>
           </div>

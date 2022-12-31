@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { SocialIcon } from 'react-social-icons'
+import Link from "next/link"
 
 
 const Header = () => {
@@ -78,13 +79,14 @@ const Header = () => {
       }}
       
       >
-        <SocialIcon
-        network='email'
-        fgColor='gray'
-        bgColor='transparent'
-        />
-        <p className='uppercase hidden sm:inline-block text-sm text-gray-400'>get in touch</p>
-
+        <Link href="#contacts">
+          <SocialIcon
+          network='email'
+          fgColor='gray'
+          bgColor='transparent'
+          />
+          <p className='uppercase hidden sm:inline-block text-sm text-gray-400'>get in touch</p>
+        </Link>
       </motion.div>
     </header>
   )
