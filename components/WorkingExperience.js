@@ -8,6 +8,7 @@ const WorkingExperience = () => {
     {
       job: 'Software Engineer',
       company: 'Microverse',
+      pic:'/experience/microverse.jpeg',
       type:'Full-Time',
       years: 'April 2022 - Now',
       expr:[
@@ -20,6 +21,7 @@ const WorkingExperience = () => {
     {
       job: 'ICT Teacher',
       company: 'Maarif School',
+      pic:'/experience/maarif.png',
       type:'Full-Time',
       years: 'Sept 2021 - Now',
       expr:[
@@ -33,7 +35,7 @@ const WorkingExperience = () => {
     {
       job: 'ICT coordinator',
       years: 'Jan 2021 - August 2021',
-      company: 'Higherlife Foundation',
+      pic:'/experience/higherlife.png',
       type:'Full-Time',
       expr:[
         'Program Creation and elaboration',
@@ -44,6 +46,7 @@ const WorkingExperience = () => {
     {
       job: 'Internship',
       company: 'Burundi Revenue Authority',
+      pic:'/experience/obr.png',
       type:'Internship',
       years: 'May 2020 - July 2020',
       expr:[

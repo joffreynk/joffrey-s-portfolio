@@ -24,7 +24,7 @@ const ExperienceCard = ({ex}) => {
       }}
       >
         <Image
-        src='/passport.jpg'
+        src={ex.pic}
         width={128}
         height={128}
         alt='Experience picture'
