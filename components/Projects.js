@@ -1,10 +1,54 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import {motion} from 'framer-motion'
 import styles from './styles.module.css'
 
 const Projects = () => {
-  const projects = [1,2,3,4,5]
+  const projects = [
+    {
+      pic: "/projects/car-booking.png",
+      live:" ",
+      title: "Booking Car",
+      git: "https://github.com/JoffreyNK/final-capstone",
+      descripion: "Car Booking API is Rais API based that allows registered users to book cars. only user of the type admin is allowed to add vehicles in the system and other users can book them them and see their reservations",
+    },
+    {
+      pic: "/projects/book-store.png",
+      live:" ",
+      git: "https://github.com/JoffreyNK/book-store",
+      title: "Book Store",
+      descripion: "The Book Store App is the app that is builtusing React, Bootstrap, Redux,  and Book end point API. The user can add, edit, remove, and comment on them. It is public to all users for use",
+    },
+    {
+      pic: "/projects/ecommerce.png",
+      live:"https://joffreynk.github.io/ecommerce-site/",
+      git: "https://github.com/JoffreyNK/ecommerce-site",
+      title: "Ecommerce",
+      descripion: "The ecommerce site is project build on intention of HTML, CSS, and some JavaScript best practices. It is just blue print of ecommerce site with all features necessary. I Can customize it based on clients needs and deliver it",
+    },
+    {
+      pic: "/projects/spacetravelorApp.png",
+      live:"https://jl-sth.netlify.app/",
+      git: "https://github.com/JoffreyNK/space-travelerers",
+      title: "Space Travelers Hub",
+      descripion: "The Space Travelers Hub project was built using ReactJS, SCSS, HTML, and tested through Jest. This is a React/Redux project for educational purposes only.",
+    },
+    {
+      pic: "/projects/summit.png",
+      live:"https://joffreynk.github.io/summit/",
+      title: "Degital Summit",
+      git: "https://github.com/JoffreyNK/summit",
+      descripion: "The Degital Summit is built with JavaScript, HTML, and CSS. It promotes events andlet audience now the speakers of the day and agenda of the day. It is dynamic to all media types", 
+     },
+    {
+      pic: "/projects/math.png",
+      live:"https://math-magicians-by-joffrey.netlify.app/",
+      title: "Math Magicians",
+      git: "https://github.com/JoffreyNK/math-magicians",
+      descripion: "\"Math magicians\" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: - Make simple calculations. - Read a random math-related quote.",
+    },
+  ]
   return (
     <div
     className='h-fit relative flex flex-col overflow-hidden text-left md:flex-row max-w-4/5 justify-evenly mx-auto items-center z-0 '>
@@ -19,10 +63,9 @@ const Projects = () => {
             }}
             transition={{duration:1.2}}
             whileInView={{y:0, opacity:1}}
-            // viewport={{once: true}}
             >
             <Image
-            src="/projects/math-magicians.png"
+            src={project.pic}
             alt="project" 
             className='w-60'
             width={200}
@@ -31,14 +74,20 @@ const Projects = () => {
             </motion.div>
             
             <div className='p-4 max-w-4xl'>
-              <h4 className='text-2xl sm:text-4xl md:text-4xl font-semibold text-center py-2 text-gray-400 '>Books store</h4>
-              <p className='text-base sm:text-xl text-justify space-x-1 break-all  text-gray-400'>
-                React-Redux book store application is an application that helps libraries to manage their books in the store. A librarian can add or remove the book from the store. a teacher who is using that book can track the progress of the book and what he has already taught
-                </p>
+              <h4 className='text-2xl sm:text-4xl md:text-4xl font-semibold text-center py-2 text-gray-400 '> {project.title} </h4>
+              <p className='text-base sm:text-xl text-justify space-x-1 break-all  text-gray-400'> {project.descripion} </p>
             </div>
               <div className='flex justify-between w-full'>
-                <button className={` rounded-xl ${styles.button} text-xl`}>live</button>
-                <button className={`rounded-xl ${styles.button} text-xl`}>Demo</button>
+                {project.live.length>5?
+                <Link href={project.live} className={`rounded-lg ${styles.button} text-base p-2 flex justify-center items-center gap-x-4`}>
+                <span className='hidden sm:block'>Live</span><Image src='/live.svg' width={16} height={16} alt='live icon'/>  
+                </Link>
+                :<div></div>}
+
+                <Link href={project.git} className={`rounded-lg ${styles.button} text-base p-2  flex justify-center items-center gap-x-2`} >
+                  <span className='hidden sm:block'>GitHub</span>
+                  <Image src='/github.svg' width={16} height={16} alt='live icon'/>
+                </Link>
               </div>
               <div className='w-full bg-[#f7ab8a]/10 ltf-0 h-[3px] mt-4 -skew-y-0' />
           </div>

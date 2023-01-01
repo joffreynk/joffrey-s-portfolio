@@ -12,7 +12,7 @@ const WorkingExperience = () => {
       type:'Full-Time',
       years: 'April 2022 - Now',
       expr:[
-        'Review more than 30 projects',
+        'Reviewed more than 30 projects',
         'Gave Feedback more than 50 people',
         'Team-working',
         'Remote Work'
@@ -25,7 +25,7 @@ const WorkingExperience = () => {
       type:'Full-Time',
       years: 'Sept 2021 - Now',
       expr:[
-        'Provide technical support and assistance to coworkers',
+        'Provide technical support and assistance',
         '2 years of teaching in the Cambridge system',
         'Designing banners and certificates',
         'Help Desk',
