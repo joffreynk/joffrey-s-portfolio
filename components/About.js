@@ -12,7 +12,7 @@ const About = () => {
     
     <div className='mt-24  xs:top-32  flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
      
-        <motion.div className='hidden es:flex justify-center items-center  float-right  w-32 h-32 es:w-72 es:h-72 md:w-2/3 md:h-2/3 xl:w-3/4  xl:h-3/4'>
+        <motion.div className='hidden md:flex justify-center items-center  float-right  w-32 h-32 es:w-72 es:h-72 md:w-2/3 md:h-2/3 xl:w-3/4  xl:h-3/4'>
 
         
           <Image

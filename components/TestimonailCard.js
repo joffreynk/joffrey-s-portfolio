@@ -11,7 +11,7 @@ const TestimonailCard = ({person}) => {
     <article className={`flex flex-col rounded-md ${styles.testimonials}  border justify-items-center items-center  space-y-3 flex-shrink-0  snap-x-center py-5 bg-[#292929] opacity-70 duration-200 cursor-pointer transition-opacity hover:opacity-100`}>
       <motion.div
       initial={{
-        x:-200,
+        x:-100,
         opacity: 0
       }}
 
