@@ -36,6 +36,7 @@ const WorkingExperience = () => {
       job: 'ICT coordinator',
       years: 'Jan 2021 - August 2021',
       pic:'/experience/higherlife.png',
+      company: 'HigherLife Foundation',
       type:'Full-Time',
       expr:[
         'Program Creation and elaboration',
