@@ -9,7 +9,7 @@ import styles from './styles.module.css'
 
 const Skills = () => {
   const  commonStyles = 'w-14 h-14 sm:w-20 sm:h-20 rounded-full';
-  const mainContainer = 'flex flex-col justify-center items-center cursor-pointer';
+  const mainContainer = 'flex flex-col justify-center items-center cursor-pointer ';
   const submainContainer = 'uppercase  text-2xl object-cover filter transition duration-300 ease-in-out';
   const childContainer = 'transition duration-300 ease-in-out';
   const paragraph = 'text-2xl font-bold text-[#fff] ';
