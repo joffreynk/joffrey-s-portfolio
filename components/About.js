@@ -18,7 +18,7 @@ const About = () => {
           <Image
 
             initial ={{
-              y: -300,
+              x: -200,
               opacity: 0,
             }}
 
@@ -28,7 +28,7 @@ const About = () => {
 
             whileInView={{
               opacity:1,
-              y:0
+              x:0
             }}
             width={300}
             height={300}
@@ -48,7 +48,7 @@ const About = () => {
           <Image
 
             initial ={{
-              y: -300,
+              x: -200,
               opacity: 0,
             }}
 
@@ -58,7 +58,7 @@ const About = () => {
 
             whileInView={{
               opacity:1,
-              y:0
+              x:0
             }}
             width={300}
             height={300}
