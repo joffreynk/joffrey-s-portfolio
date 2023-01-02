@@ -41,8 +41,6 @@ const About = () => {
           />
         </motion.div>
 
-
-
              
         <motion.div className='md:hidden justify-center items-center  float-right  w-36 h-36'>
 
@@ -89,8 +87,6 @@ const About = () => {
             opacity:1,
             x:0
           }}
-
-          // portView={{once:true}}
           
           className="space-y-2 es:space-x-10 px-0 md:px-10 flex-grow xs:w-full">
             <h5 className='text-2xl mt-3 font-semibold text-center  text-gray-400'>
