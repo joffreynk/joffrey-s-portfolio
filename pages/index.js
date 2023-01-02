@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Joffrey`s portfolio</title>
       </Head>
-      <main className='bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-auto snap-mandatory  z-0'>
+      <main className='bg-[rgb(36,36,36)] text-white h-[100%] relative snap-y overflow-auto snap-mandatory  z-0'>
         {/* header */}
         <Header />
 

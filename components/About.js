@@ -6,11 +6,11 @@ import styles from './styles.module.css'
 
 const About = () => {
   return (
-    <div className="h-screen min-h-fit flex flex-col relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center">
+    <div className="mb-16  min-h-fit flex flex-col relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center">
 
       <h3 className={`absolute top-16 es:top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>About</h3>
     
-    <div className='mt-24  xs:top-32  flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
+    <div className='mt-44  xs:top-32  flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
      
         <motion.div className='hidden md:flex justify-center items-center  float-right  w-32 h-32 es:w-72 es:h-72 md:w-2/3 md:h-2/3 xl:w-3/4  xl:h-3/4'>
 
