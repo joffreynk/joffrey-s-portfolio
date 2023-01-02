@@ -38,7 +38,7 @@ function Contacts() {
         <input type="email" placeholder='email' name="email" id="email" className='contactInput'/>
         <input type="text" placeholder='Subject' name="subject" id="subject" className='contactInput'/>
         <textarea name="message" placeholder='your message please' id="message" className='contactInput'  />
-        <button type='submit' className={`text-xl sm:text-2xl rounded-xl ${styles.button}  text-gray-400`} >Submit</button>
+        <button type='submit' className={`text-xl sm:text-2xl rounded-xl ${styles.submitbtn}  text-gray-400`} >Submit</button>
       </form>
     </div>
     </div>

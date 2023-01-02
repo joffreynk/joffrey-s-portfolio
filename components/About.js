@@ -33,7 +33,7 @@ const About = () => {
             width={300}
             height={300}
 
-              src={"/passport.jpg"}
+              src={"/aboutpic.jpg"}
 
               alt="my professional picture"
 
