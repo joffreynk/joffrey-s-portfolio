@@ -55,7 +55,7 @@ const Projects = () => {
       <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>projects</h3>
       <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-7 md:gap-14 p-5 md:p-14 relative snap-x snap-mandatory mt-28 z-20'>
         {projects.map((project, i)=>{
-          return <div key={i+1} className={`flex-shrink-0 snap-center hover:scale-110 flex flex-col items-center justify-center py-6 px-3 ${styles.expericenceBorder}`}>
+          return <div key={i+1} className={`flex-shrink-0 snap-center hover:scale-110 duration-[1.25s] flex flex-col items-center justify-center py-6 px-3 ${styles.expericenceBorder}`}>
             <motion.div
             initial={{
               y:-200,
