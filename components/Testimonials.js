@@ -7,7 +7,7 @@ const Testimonials = () => {
   const testimonials = [
     
     {
-      name:'Dario Alession',
+      name:'Dario Alessio',
       position:'Mechanical Engineer, MBA, software developer',
       url: "https://www.linkedin.com/in/dario-alessio",
       picture:'/testimonials/dario.jpeg',
