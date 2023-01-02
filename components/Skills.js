@@ -111,7 +111,7 @@ const Skills = () => {
         </div>
 
         <div className={`${childContainer} z-10`}>
-            <p className={paragraph}>Javascript</p>
+            <p className={paragraph}>JavaScript</p>
         </div>
       </div>
 

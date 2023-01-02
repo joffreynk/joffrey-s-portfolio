@@ -18,7 +18,7 @@ const About = () => {
           <Image
 
             initial ={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
 
@@ -37,7 +37,7 @@ const About = () => {
 
               alt="my professional picture"
 
-              className='w-[70%] h-[90%]  p-0 m-0  flex-shrink-0  rounded-full object-cover md:rounded-lg'
+              className='w-[80%] h-[90%]  p-0 m-0  flex-shrink-0  rounded-full object-cover md:rounded-lg'
           />
         </motion.div>
 
