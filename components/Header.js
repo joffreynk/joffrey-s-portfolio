@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { SocialIcon } from 'react-social-icons'
 import Link from "next/link"
+import styles from './styles.module.css'
 
 
 const Header = () => {
@@ -37,6 +38,7 @@ const Header = () => {
           url="https://twitter.com/joffreynk"
           fgColor='gray'
           bgColor='transparent'
+          className={`hover:${styles.hovering}`}
         />
 
         <SocialIcon

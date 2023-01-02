@@ -79,12 +79,12 @@ const Projects = () => {
             </div>
               <div className='flex justify-between w-full'>
                 {project.live.length>5?
-                <Link href={project.live} className={`rounded-lg ${styles.button} text-base p-2 flex justify-center items-center gap-x-4`}>
+                <Link href={project.live} className={`rounded-lg ${styles.button} text-base p-2 flex justify-center items-center gap-x-4  hover:border-[#f7ab0a]/40 hover:text-gray-400`}>
                 <span className='hidden sm:block'>Live</span><Image src='/live.svg' width={16} height={16} alt='live icon'/>  
                 </Link>
                 :<div></div>}
 
-                <Link href={project.git} className={`rounded-lg ${styles.button} text-base p-2  flex justify-center items-center gap-x-2`} >
+                <Link href={project.git} className={`rounded-lg ${styles.button} text-base p-2 hover:border-[#f7ab0a]/40 hover:text-gray-400   flex justify-center items-center gap-x-2`} >
                   <span className='hidden sm:block'>GitHub</span>
                   <Image src='/github.svg' width={16} height={16} alt='live icon'/>
                 </Link>
