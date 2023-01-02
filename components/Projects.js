@@ -11,21 +11,21 @@ const Projects = () => {
       live:" ",
       title: "Booking Car",
       git: "https://github.com/JoffreyNK/final-capstone",
-      descripion: "Car Booking API is Rais API based that allows registered users to book cars. only user of the type admin is allowed to add vehicles in the system and other users can book them them and see their reservations",
+      descripion: "Car Booking API is a Ruby on Rails API based that allows registered users to book cars. only users of the type admin are allowed to manage vehicles in the system and other simple users can book them them and see their reservations",
     },
     {
       pic: "/projects/book-store.png",
       live:" ",
       git: "https://github.com/JoffreyNK/book-store",
       title: "Book Store",
-      descripion: "The Book Store App is the app that is builtusing React, Bootstrap, Redux,  and Book end point API. The user can add, edit, remove, and comment on them. It is public to all users for use",
+      descripion: "The Book Store App is the app that is built With React, Bootstrap, Redux,  and Book end point API. The user can add, edit, remove, and comment on them. It is public to all users for use",
     },
     {
       pic: "/projects/ecommerce.png",
       live:"https://joffreynk.github.io/ecommerce-site/",
       git: "https://github.com/JoffreyNK/ecommerce-site",
       title: "Ecommerce",
-      descripion: "The ecommerce site is project build on intention of HTML, CSS, and some JavaScript best practices. It is just blue print of ecommerce site with all features necessary. I Can customize it based on clients needs and deliver it",
+      descripion: "The Ecommerce site is a project built with HTML, CSS, and JavaScript best practices. It is just the blue print of an ecommerce site with all the necessary features . I can customize and deliver it based on the clients needs.",
     },
     {
       pic: "/projects/spacetravelorApp.png",
@@ -37,9 +37,9 @@ const Projects = () => {
     {
       pic: "/projects/summit.png",
       live:"https://joffreynk.github.io/summit/",
-      title: "Degital Summit",
+      title: "Digital Summit",
       git: "https://github.com/JoffreyNK/summit",
-      descripion: "The Degital Summit is built with JavaScript, HTML, and CSS. It promotes events andlet audience now the speakers of the day and agenda of the day. It is dynamic to all media types", 
+      descripion: "The Digital Summit is built with JavaScript, HTML, and CSS. It promotes events and let audience now the speakers and agenda of the day. It is dynamic to all media types", 
      },
     {
       pic: "/projects/math.png",
