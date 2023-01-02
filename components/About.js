@@ -97,9 +97,9 @@ const About = () => {
               Biography
             </h5>
             <p className='mt-0 pt-0 text-[18px]  text-gray-400'>
-              With computer science degree, I'm Full-stack developer and open-source enthusiast with a love for clean code and accessible design. Pair-programming, problem-solving, and remote work specialist.
+              With computer science degree, I&apos;m Full-stack developer and open-source enthusiast with a love for clean code and accessible design. Pair-programming, problem-solving, and remote work specialist.
               <br/>
-              I can help you to build product, feature, website. Look through my skills, projects and experiences. Don't hesitate to contact me.
+              I can help you to build product, feature, website. Look through my skills, projects and experiences. Don&apos;t hesitate to contact me.
             </p>
         </motion.div>
       </div>
