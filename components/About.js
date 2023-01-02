@@ -77,7 +77,7 @@ const About = () => {
 
           <motion.div
           initial ={{
-            y: 150,
+            x: -200,
             opacity: 0,
           }}
 
@@ -87,7 +87,7 @@ const About = () => {
 
           whileInView={{
             opacity:1,
-            y:0
+            x:0
           }}
 
           // portView={{once:true}}
