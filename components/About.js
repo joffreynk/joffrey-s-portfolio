@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="h-screen min-h-fit flex flex-col relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center">
 
-      <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>About</h3>
+      <h3 className={`absolute top-16 es:top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>About</h3>
     
     <div className='mt-24  xs:top-32  flex text-justify flex-col md:flex-row max-w-7xl justify-center mx-2 items-center' >
      
@@ -37,9 +37,43 @@ const About = () => {
 
               alt="my professional picture"
 
-              className='w-[80%] h-[80%]  p-0 m-0  flex-shrink-0  rounded-full object-cover md:rounded-lg'
+              className='w-[70%] h-[90%]  p-0 m-0  flex-shrink-0  rounded-full object-cover md:rounded-lg'
           />
         </motion.div>
+
+
+
+             
+        <motion.div className='md:hidden justify-center items-center  float-right  w-36 h-36'>
+
+        
+          <Image
+
+            initial ={{
+              y: -300,
+              opacity: 0,
+            }}
+
+            transition = {{
+              duration: 1.5,
+            }}
+
+            whileInView={{
+              opacity:1,
+              y:0
+            }}
+            width={300}
+            height={300}
+
+              src={"/aboutpic2.jpg"}
+
+              alt="my professional picture"
+
+              className='w-[100%] h-[100%]  p-0 m-0  flex-shrink-0  rounded-full object-cover md:rounded-lg'
+          />
+        </motion.div>
+
+
 
           <motion.div
           initial ={{
@@ -58,7 +92,7 @@ const About = () => {
 
           // portView={{once:true}}
           
-          className="space-y-10  px-0 md:px-10 flex-grow xs:w-full">
+          className="space-y-2 es:space-x-10 px-0 md:px-10 flex-grow xs:w-full">
             <h5 className='text-2xl mt-3 font-semibold text-center  text-gray-400'>
               Biography
             </h5>
