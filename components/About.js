@@ -89,13 +89,14 @@ const About = () => {
           }}
           
           className="space-y-2 es:space-x-10 px-0 md:px-10 flex-grow xs:w-full">
-            <h5 className='text-2xl mt-3 font-semibold text-center  text-gray-400'>
-              Biography
+            <h5 className='text-2xl mt-3 font-semibold text-center  text-gray-400 underline pb-5 decoration-[#8c61c5] '>
+              Little background
             </h5>
-            <p className='mt-0 pt-0 text-[18px]  text-gray-400'>
-              With computer science degree, I&apos;m Full-stack developer and open-source enthusiast with a love for clean code and accessible design. Pair-programming, problem-solving, and remote work specialist.
-              <br/>
-              I can help you to build product, feature, website. Look through my skills, projects and experiences. Don&apos;t hesitate to contact me.
+            <p className='mt-0 pt-0 text-[18px]  text-gray-400  '>
+            Hi, my name is Joffrey NKESHIMANA, I have a bachelor&#39;s degree in computer science. I&#39;m a Ruby on Rails and NextJS full-stack developer with the mission of enhancing technology by turning ideas into real-world applications.
+            JavaScript, Ruby on Rails, ExpressJS, NextJS, Redux, Sanity.io, SQL, and MongoDB are my favorite technologies.
+            Improving open-source projects, Remote working, Team-working and one commitment at a time are my priorities.
+            I can help you to build products, features, and websites. Look through my skills, projects, and experiences. Don&#39;t hesitate to contact me.
             </p>
         </motion.div>
       </div>
