@@ -9,31 +9,34 @@ import BackgroundCircle from "./BackgroundCircle";
 const Introduction = () => {  
   return (
     <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
-      <div className="fixed z-50 top-20 left-3 text-lg capitalize flex flex-col text-gray-500">
-          <Link href="#top" className="flex gap-5 items-center">
+      <div className="fixed z-50 top-20 left-3 right-1/4 text-lg  flex flex-col text-gray-500">
+          <div>
+          <Link href="#top" className="flex gap-3 items-center">
             <FaDotCircle className="bull-dot" />
-            <button className={`introButtons  hidden sm:block`}>top</button>
+            <button className={`introButtons  hidden sm:block capitalize`}>top</button>
           </Link>
-          <Link href="#about" className="flex gap-5  items-center">
+          <Link href="#about" className="flex gap-3  items-center">
           <FaDotCircle className="bull-dot" />
-            <button className={`introButtons hidden sm:block`}>about</button>
+            <button className={`introButtons hidden sm:block capitalize`}>about</button>
           </Link>
-          <Link href="#experience" className="flex gap-5 items-center">
+          <Link href="#experience" className="flex gap-3 items-center">
           <FaDotCircle className="bull-dot" />
-            <button className={`introButtons hidden sm:block`}>experience</button>
+            <button className={`introButtons hidden sm:block capitalize`}>experience</button>
           </Link>
           <Link href="#skills" className="flex gap-5  items-center">
           <FaDotCircle className="bull-dot" />
-            <button className={`introButtons hidden sm:block`}>skills</button>
+            <button className={`introButtons hidden sm:block capitalize`}>skills</button>
           </Link>
-          <Link href="#projects" className="flex gap-5 items-center">
+          <Link href="#projects" className="flex gap-3 items-center">
           <FaDotCircle className="bull-dot" />
-            <button className="introButtons hidden sm:block">projects</button>
+            <button className="introButtons hidden sm:block capitalize">projects</button>
           </Link>
-          <Link href="#contacts" className="flex gap-5 items-center">
+          <Link href="#contacts" className="flex gap-3 items-center">
           <FaDotCircle className="bull-dot" />
-            <button className="introButtons hidden sm:block">Contacts</button>
+            <button className="introButtons hidden sm:block capitalize">Contacts</button>
           </Link>
+          </div>
+          <div></div>
       </div>
       <BackgroundCircle />
       <div>
