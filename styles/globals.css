@@ -4,7 +4,7 @@
 
 @layer components {
     .introButtons {
-        @apply px-3 py-2 border border-[#242424] rounded-full text-sm uppercase tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40 
+        /* @apply px-3 py-2 border border-[#242424] rounded-full text-sm uppercase tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40  */
     }
 
     .contactInput {
