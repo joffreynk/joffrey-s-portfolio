@@ -1,4 +1,5 @@
 import {Cursor, useTypewriter, Typewriter} from "react-simple-typewriter";
+import {FaDotCircle} from 'react-icons/fa'
 import Image from "next/image";
 import Link from "next/link";
 import BackgroundCircle from "./BackgroundCircle";
@@ -8,6 +9,28 @@ import BackgroundCircle from "./BackgroundCircle";
 const Introduction = () => {  
   return (
     <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
+      <div className="fixed z-50">
+          <Link href="#top" className="flex ju">
+            <FaDotCircle className="bull-dot" />
+            <button className={`introButtons`}>about</button>
+          </Link>
+          <Link href="#about">
+          <FaDotCircle className="bull-dot" />
+            <button className={`introButtons`}>about</button>
+          </Link>
+          <Link href="#experience">
+          <FaDotCircle className="bull-dot" />
+            <button className={`introButtons`}>experience</button>
+          </Link>
+          <Link href="#skills">
+          <FaDotCircle className="bull-dot" />
+            <button className={`introButtons`}>skills</button>
+          </Link>
+          <Link href="#projects">
+          <FaDotCircle className="bull-dot" />
+            <button className="introButtons">projects</button>
+          </Link>
+      </div>
       <BackgroundCircle />
       <div>
       <Image  src='/professionalpicture.jpg'
@@ -36,18 +59,9 @@ const Introduction = () => {
             />
           </h1>
           <div className="">
-            <Link href="#about">
-            <button className={`introButtons`}>about</button>
-            </Link>
-            <Link href="#experience">
-            <button className={`introButtons`}>experience</button>
-            </Link>
-            <Link href="#skills">
-            <button className={`introButtons`}>skills</button>
-            </Link>
-            <Link href="#projects">
-            <button className="introButtons">projects</button>
-            </Link>
+          <h2 className=" text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software engineer
+        </h2>
           </div>
       </div>
     </div>
