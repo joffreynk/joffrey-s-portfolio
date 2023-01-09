@@ -4,10 +4,10 @@ import {IoClose} from 'react-icons/io5';
 import { useState } from "react";
 import {FaDotCircle} from 'react-icons/fa';
 import {AiOutlineHome, AiOutlineFundProjectionScreen} from 'react-icons/ai';
-import {GrUserExpert, GrContact} from 'react-icons/gr';
-import {GiSkills} from 'react-icons/gi';
-import {FcAbout} from 'react-icons/fc';
-import {MdOutlinePreview} from 'react-icons/md';
+import { GrContact} from 'react-icons/gr';
+import {GiSkills, GiAchievement} from 'react-icons/gi';
+import {FcReading} from 'react-icons/fc';
+import {MdOutlinePreview, MdContactMail} from 'react-icons/md';
 import Image from "next/image";
 import Link from "next/link";
 import BackgroundCircle from "./BackgroundCircle";
@@ -26,34 +26,34 @@ const Introduction = () => {
       :
       <div className=" fixed z-50 top-0 left-0 right-0 bottom-0 text-lg  bg-slate-300 bg-opacity-70 ">
         <div className=" fixed top-20 left-3 right-1/4 bottom-0  flex justify-between items-start text-gray-500  bg-slate-300 p-5 bg-opacity-90">
-          <div>
-          <Link href="#home" className="flex gap-3 items-center">
-            <AiOutlineHome className="bull-dot" />
-            <button className={`introButtons  hidden sm:block capitalize`}>Home</button>
+          <div className="text-3xl flex flex-col gap-5 ">
+          <Link href="#home" className="flex gap-3 items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+            <AiOutlineHome className=" text-violet-400" />
+            <button className={`introButtons  capitalize  hover:scale-x-75 duration-125`}>Home</button>
           </Link>
-          <Link href="#about" className="flex gap-3  items-center">
-          <FcAbout className="bull-dot" />
-            <button className={`introButtons hidden sm:block capitalize`}>about</button>
+          <Link href="#about" className="flex gap-3  items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+          <FcReading className="text-violet-400" />
+            <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>about</button>
           </Link>
-          <Link href="#experience" className="flex gap-3 items-center">
-          <GrUserExpert className="bull-dot" />
-            <button className={`introButtons hidden sm:block capitalize`}>experience</button>
+          <Link href="#experience" className="flex gap-3 items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+          <GiAchievement className="text-violet-400" />
+            <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>experience</button>
           </Link>
-          <Link href="#skills" className="flex gap-5  items-center">
-          <GiSkills className="bull-dot" />
-            <button className={`introButtons hidden sm:block capitalize`}>skills</button>
+          <Link href="#skills" className="flex gap-5  items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+          <GiSkills className="text-violet-400" />
+            <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>skills</button>
           </Link>
-          <Link href="#projects" className="flex gap-3 items-center">
-          <AiOutlineFundProjectionScreen className="bull-dot" />
-            <button className="introButtons hidden sm:block capitalize">projects</button>
+          <Link href="#projects" className="flex gap-3 items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+          <AiOutlineFundProjectionScreen className="text-violet-400" />
+            <button className="introButtons capitalize hover:scale-x-75 duration-125 ">projects</button>
           </Link>
-          <Link href="#testimonials" className="flex gap-3 items-center">
-          <MdOutlinePreview className="bull-dot" />
-            <button className="introButtons hidden sm:block capitalize">Testimonials</button>
+          <Link href="#testimonials" className="flex gap-3 items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+          <MdOutlinePreview className="text-violet-400" />
+            <button className="introButtons capitalize hover:scale-x-75 duration-125 ">Testimonials</button>
           </Link>
-          <Link href="#contacts" className="flex gap-3 items-center">
-          <GrContact className="bull-dot" />
-            <button className="introButtons hidden sm:block capitalize">Contacts</button>
+          <Link href="#contacts" className="flex gap-3 items-center border-b-2 w-fit hover:bg-[#8f8989] p-2 rounded-md ">
+          <MdContactMail className="text-violet-400" />
+            <button className="introButtons capitalize hover:scale-x-75 duration-125 ">Contacts</button>
           </Link>
           </div>
           <button onClick={()=> setDisplayMenu(!displayMenu)} className="hover:text-orange-400"><IoClose  /></button>
