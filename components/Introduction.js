@@ -19,7 +19,8 @@ const Introduction = () => {
       ? 
       <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 rounded-md text-[rgb(36,36,36)] self-start " /></button> 
       :
-      <div className="fixed z-50 top-20 left-3 right-1/4 bottom-0 text-lg  flex justify-between items-start text-gray-500  bg-slate-300 p-5 bg-opacity-90 h-screen ">
+      <div className=" fixed z-50 top-0 left-0 right-0 bottom-0 text-lg  bg-slate-300 bg-opacity-70 ">
+        <div className=" fixed top-20 left-3 right-1/4 bottom-0  flex justify-between items-start text-gray-500  bg-slate-300 p-5 bg-opacity-90">
           <div>
           <Link href="#top" className="flex gap-3 items-center">
             <FaDotCircle className="bull-dot" />
@@ -47,6 +48,7 @@ const Introduction = () => {
           </Link>
           </div>
           <button onClick={()=> setDisplayMenu(!displayMenu)} className="hover:text-orange-400"><IoClose  /></button>
+      </div>
       </div>
       }
       </div>

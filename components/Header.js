@@ -81,14 +81,14 @@ const Header = () => {
         }}
         
         >
-          {/* <Link href="#contacts"> */}
+          <Link href="#contacts">
             <SocialIcon
             network='email'
             fgColor='gray'
             bgColor='transparent'
             />
             <p className='uppercase hidden sm:inline-block text-sm text-gray-400'>get in touch</p>
-          {/* </Link> */}
+          </Link>
         </motion.div>
     </header>
   )
