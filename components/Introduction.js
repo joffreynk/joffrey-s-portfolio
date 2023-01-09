@@ -1,6 +1,6 @@
 import {Typewriter} from "react-simple-typewriter";
 import {BiMenu} from "react-icons/bi";
-import {RiCloseFill} from 'react-icons/ri';
+import {IoClose} from 'react-icons/io5';
 import { useState } from "react";
 import {FaDotCircle} from 'react-icons/fa';
 import Image from "next/image";
@@ -10,15 +10,16 @@ import BackgroundCircle from "./BackgroundCircle";
 
 
 const Introduction = () => {  
-  const [displayManu, setDisplayManu] = useState(true)
+  const [displayMenu, setDisplayMenu] = useState(true);
+  console.log(displayMenu);
   return (
     <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
-      <div className="fixed z-50 top-20 left-3 right-1/4 text-lg">
-      {displayManu
+      <div className="fixed z-50 top-20 left-3 text-lg">
+      {displayMenu
       ? 
-      <button onClick={()=>setDisplayManu(false)}><BiMenu className="text-blue-900 text-3xl" /></button> 
+      <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 rounded-md text-[rgb(36,36,36)] self-start " /></button> 
       :
-      <div className="text-lg  flex justify-between items-start text-gray-500">
+      <div className="fixed z-50 top-20 left-3 right-1/4 bottom-0 text-lg  flex justify-between items-start text-gray-500  bg-slate-300 p-5 bg-opacity-90 h-screen ">
           <div>
           <Link href="#top" className="flex gap-3 items-center">
             <FaDotCircle className="bull-dot" />
@@ -45,7 +46,7 @@ const Introduction = () => {
             <button className="introButtons hidden sm:block capitalize">Contacts</button>
           </Link>
           </div>
-          <button onClick={()=> setDisplayManu(false)}><RiCloseFill /></button>
+          <button onClick={()=> setDisplayMenu(!displayMenu)} className="hover:text-orange-400"><IoClose  /></button>
       </div>
       }
       </div>
