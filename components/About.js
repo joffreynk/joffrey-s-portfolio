@@ -47,19 +47,19 @@ const About = () => {
         
           <Image
 
-            initial ={{
-              x: -200,
-              opacity: 0,
-            }}
+            // initial ={{
+            //   x: -200,
+            //   opacity: 0,
+            // }}
 
-            transition = {{
-              duration: 1.5,
-            }}
+            // transition = {{
+            //   duration: 1.5,
+            // }}
 
-            whileInView={{
-              opacity:1,
-              x:0
-            }}
+            // whileInView={{
+            //   opacity:1,
+            //   x:0
+            // }}
             width={300}
             height={300}
 
@@ -74,19 +74,19 @@ const About = () => {
 
 
           <motion.div
-          initial ={{
-            x: -200,
-            opacity: 0,
-          }}
+          // initial ={{
+          //   x: -200,
+          //   opacity: 0,
+          // }}
 
-          transition = {{
-            duration: 1.5,
-          }}
+          // transition = {{
+          //   duration: 1.5,
+          // }}
 
-          whileInView={{
-            opacity:1,
-            x:0
-          }}
+          // whileInView={{
+          //   opacity:1,
+          //   x:0
+          // }}
           
           className="space-y-2 es:space-x-10 px-0 md:px-10 flex-grow xs:w-full">
             <h5 className='text-2xl mt-3 font-semibold text-center  text-gray-400 underline pb-5 decoration-[#8c61c5] '>
