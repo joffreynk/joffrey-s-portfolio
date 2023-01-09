@@ -1,5 +1,8 @@
-import {Cursor, useTypewriter, Typewriter} from "react-simple-typewriter";
-import {FaDotCircle} from 'react-icons/fa'
+import {Typewriter} from "react-simple-typewriter";
+import {BiMenu} from "react-icons/bi";
+import {RiCloseFill} from 'react-icons/ri';
+import { useState } from "react";
+import {FaDotCircle} from 'react-icons/fa';
 import Image from "next/image";
 import Link from "next/link";
 import BackgroundCircle from "./BackgroundCircle";
@@ -7,9 +10,15 @@ import BackgroundCircle from "./BackgroundCircle";
 
 
 const Introduction = () => {  
+  const [displayManu, setDisplayManu] = useState(true)
   return (
     <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
-      <div className="fixed z-50 top-20 left-3 right-1/4 text-lg  flex flex-col text-gray-500">
+      <div className="fixed z-50 top-20 left-3 right-1/4 text-lg">
+      {displayManu
+      ? 
+      <button onClick={()=>setDisplayManu(false)}><BiMenu className="text-blue-900 text-3xl" /></button> 
+      :
+      <div className="text-lg  flex justify-between items-start text-gray-500">
           <div>
           <Link href="#top" className="flex gap-3 items-center">
             <FaDotCircle className="bull-dot" />
@@ -36,7 +45,9 @@ const Introduction = () => {
             <button className="introButtons hidden sm:block capitalize">Contacts</button>
           </Link>
           </div>
-          <div></div>
+          <button onClick={()=> setDisplayManu(false)}><RiCloseFill /></button>
+      </div>
+      }
       </div>
       <BackgroundCircle />
       <div>
