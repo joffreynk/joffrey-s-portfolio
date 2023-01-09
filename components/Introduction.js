@@ -18,15 +18,15 @@ const Introduction = () => {
   const [displayMenu, setDisplayMenu] = useState(true);
   return (
     <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
-      <div className="fixed z-50 top-20 left-3 text-lg">
+      <div className="fixed z-50 top-24 left-4 text-lg">
       {displayMenu
       ? 
       <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 text-[rgb(36,36,36)] self-start " /></button> 
       :
-      <div className=" fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-gray-500  text- bg-opacity-70 ">
-        <div className=" fixed top-20 left-3 right-[15%] md:right-[40%] bottom-0  flex justify-between items-start text-gray-500 bg-[rgb(36,36,36)] p-5 bg-opacity-90">
-          <div className="text-xl flex flex-col gap-5 ">
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-3 items-center border-b border-gray-500 w-fit p-2 ">
+      <div className=" fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-gray-500  text- bg-opacity-70 pointer-events-none">
+        <div className=" fixed top-0 left-0  right-[15%] md:right-[40%] bottom-0  pt-10 pl-10 flex justify-between items-start text-gray-500 bg-[rgb(36,36,36)] pr-5 bg-opacity-90">
+          <div className="text-xl flex flex-col gap-2 ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-2 items-center border-b border-gray-500 w-fit px-2 ">
             <AiOutlineHome className=" text-violet-400" />
             <button className={`introButtons  capitalize  hover:scale-x-75 duration-125`}>Home</button>
           </Link>
