@@ -21,41 +21,41 @@ const Introduction = () => {
       <div className="fixed z-50 top-20 left-3 text-lg">
       {displayMenu
       ? 
-      <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 rounded-md text-[rgb(36,36,36)] self-start " /></button> 
+      <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 text-[rgb(36,36,36)] self-start " /></button> 
       :
-      <div className=" fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-[rgb(36,36,36)]  text-gray-500 bg-opacity-60 ">
-        <div className=" fixed top-20 left-3 right-1/4 bottom-0  flex justify-between items-start text-gray-500 bg-[rgb(36,36,36)] p-5 bg-opacity-90">
-          <div className="text-3xl flex flex-col gap-5 ">
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-3 items-center border-b-2 w-fit p-2 rounded-md ">
+      <div className=" fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-gray-500  text- bg-opacity-70 ">
+        <div className=" fixed top-20 left-3 right-[15%] md:right-[40%] bottom-0  flex justify-between items-start text-gray-500 bg-[rgb(36,36,36)] p-5 bg-opacity-90">
+          <div className="text-xl flex flex-col gap-5 ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-3 items-center border-b border-gray-500 w-fit p-2 ">
             <AiOutlineHome className=" text-violet-400" />
             <button className={`introButtons  capitalize  hover:scale-x-75 duration-125`}>Home</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#about" className="flex gap-3  items-center border-b-2 w-fit p-2 rounded-md ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#about" className="flex gap-3  border-gray-500 items-center border-b w-fit p-2 ">
           <FcReading className="text-violet-400" />
             <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>about</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#experience" className="flex gap-3 items-center border-b-2 w-fit p-2 rounded-md ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#experience" className="flex gap-3 items-center  border-gray-500 border-b w-fit p-2 ">
           <GiAchievement className="text-violet-400" />
             <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>experience</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#skills" className="flex gap-5  items-center border-b-2 w-fit p-2 rounded-md ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#skills" className="flex gap-5   border-gray-500 items-center border-b w-fit p-2 ">
           <GiSkills className="text-violet-400" />
             <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>skills</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#projects" className="flex gap-3 items-center border-b-2 w-fit p-2 rounded-md ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#projects" className="flex  border-gray-500 gap-3 items-center border-b w-fit p-2 ">
           <AiOutlineFundProjectionScreen className="text-violet-400" />
             <button className="introButtons capitalize hover:scale-x-75 duration-125 ">projects</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#testimonials" className="flex gap-3 items-center border-b-2 w-fit p-2 rounded-md ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#testimonials" className="flex gap-3 items-center  border-gray-500 border-b w-fit p-2 ">
           <MdOutlinePreview className="text-violet-400" />
             <button className="introButtons capitalize hover:scale-x-75 duration-125 ">Testimonials</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#contacts" className="flex gap-3 items-center border-b-2 w-fit p-2 rounded-md ">
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#contacts" className="flex gap-3  border-gray-500 items-center border-b w-fit p-2 ">
           <MdContactMail className="text-violet-400" />
             <button className="introButtons capitalize hover:scale-x-75 duration-125 ">Contacts</button>
           </Link>
           </div>
-          <button onClick={()=> setDisplayMenu(!displayMenu)} className="hover:text-orange-400"><IoClose className="text-4xl bg-[rgb(36,36,36)] rounded-md text-slate-300 "  /></button>
+          <button onClick={()=> setDisplayMenu(!displayMenu)} className="hover:text-orange-400"><IoClose className="text-4xl bg-[rgb(36,36,36)] text-slate-300 "  /></button>
       </div>
       </div>
       }
@@ -88,8 +88,9 @@ const Introduction = () => {
             />
           </h1>
           <div className="">
-          <h2 className=" text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-          Software engineer
+          <h2 className=" text-sm uppercase text-gray-500 pb-2 mt-5 tracking-[5px]">
+          {/* GREAT APE&#39;S CODE */}
+          code like greate apes
         </h2>
           </div>
       </div>
