@@ -27,6 +27,7 @@ const Header = () => {
         className='flex flex-row items-center lg:items-center'>
 
           <SocialIcon
+            target="_blank"
             url="https://www.linkedin.com/in/joffreynk/"
             fgColor='gray'
             bgColor='transparent'
@@ -35,6 +36,7 @@ const Header = () => {
 
 
           <SocialIcon
+            target="_blank"
             url="https://twitter.com/joffreynk"
             fgColor='gray'
             bgColor='transparent'
@@ -42,12 +44,14 @@ const Header = () => {
           />
 
           <SocialIcon
+            target="_blank"
             url="https://github.com/JoffreyNK"
             fgColor='gray'
             bgColor='transparent'
           />
 
           <SocialIcon
+            target="_blank"
             url="https://www.facebook.com/joffreynk7"
             fgColor='gray'
             bgColor='transparent'
@@ -55,6 +59,7 @@ const Header = () => {
           
 
           <SocialIcon
+            target="_blank"
             url="https://angel.co/u/joffreynk/"
             fgColor='gray'
             bgColor='transparent'
