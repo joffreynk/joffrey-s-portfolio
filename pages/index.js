@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className='bg-[rgb(36,36,36)] text-white h-[100%] relative snap-y overflow-auto snap-mandatory  z-0'>
         {/* header */}
-        <section id='top'>
+        <section id='home'>
           <Header />
         </section>
 
