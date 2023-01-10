@@ -39,9 +39,9 @@ const WorkingExperience = () => {
       company: 'HigherLife Foundation',
       type:'Full-Time',
       expr:[
-        'Program Creation and elaboration',
-        'Taught 1000+ people computer science',
-        '7 months of technical support and computer maintenance'
+        'Trained 1000+ people in data management and visualization(MS Access, Advanced Excel, and PowerPoint)',
+        'Implemented a training enrollment system that decreased registration days from 5 days to 2 days and centralized data between agencies.',
+        'Certificate of the best trainer of the year.'
       ]
     },
     {
@@ -60,7 +60,7 @@ const WorkingExperience = () => {
     <div 
     className='relative flex flex-col overflow-hidden text-left md:flex-row   px-4 sm:px-10 justify-evenly mx-auto items-center mb-16 '>
         <h3 className={`absolute top-20 font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-gray-500 text-4xl`}>Experience</h3>
-        <div className='grid md:grid-cols-2 mt-52 mb-14  gap-8 md:gap-14  snap-x snap-mandatory' >
+        <div className='grid w-3/4 md:grid-cols-2 mt-52 mb-14  gap-8 md:gap-14  snap-x snap-mandatory' >
             
             {
               experience.map(ex=><ExperienceCard key={ex.company} ex={ex} />)
