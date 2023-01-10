@@ -7,7 +7,7 @@ import styles from './styles.module.css'
 
 const ExperienceCard = ({ex}) => {
   return (
-    <article className={`flex flex-col rounded-md ${styles.expericenceBorder} border-transparent justify-items-center items-center  space-y-3 flex-shrink-0  snap-x-center py-5 bg-[#292929] opacity-70 duration-200 cursor-pointer transition-opacity hover:opacity-100`}>
+    <article className={`flex flex-col rounded-md ${styles.expericenceBorder} border-transparent justify-items-center items-center flex-shrink-0 py-5 bg-[#292929] opacity-70 duration-200 cursor-pointer transition-opacity hover:opacity-100`}>
       <motion.div
       initial={{
         x: 100,
@@ -28,7 +28,7 @@ const ExperienceCard = ({ex}) => {
         width={128}
         height={128}
         alt='Experience picture'
-        className='h-32 w-32 rounded-full xl:w-[120px] xl:h-[120px] object-cover object-center'
+        className='h-32 w-32 rounded-full xl:w-[120px] xl:h-[120px] flex items-center object-cover'
         />
       </motion.div>
       <div className='px-0 md:px-10'>
@@ -39,7 +39,7 @@ const ExperienceCard = ({ex}) => {
         <p className='text-blue-400 flex justify-center items-center'><BsStarHalf/> <BsStarHalf/><BsStarHalf/><BsStarHalf/><BsStarHalf/></p>
 
       </div>
-        <ul className='list-disc  px-3 ml-5 text-lg  text-gray-400'>
+        <ul className='list-disc ml-5 text-lg  text-gray-400 self-start px-8'>
             {
               ex.expr.map(sk => <li key={sk}>{sk}</li>)
             }
