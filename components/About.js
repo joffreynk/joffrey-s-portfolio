@@ -93,10 +93,7 @@ const About = () => {
               Biography
             </h5>
             <p className='mt-0 pt-0 text-[18px]  text-gray-400  '>
-            Hi, my name is Joffrey NKESHIMANA, I have a bachelor&#39;s degree in computer science. I&#39;m a Ruby on Rails and NextJS full-stack developer with the mission of enhancing technology by turning ideas into real-world applications.
-            JavaScript, Ruby on Rails, ExpressJS, NextJS, Redux, Sanity.io, SQL, and MongoDB are my favorite technologies.
-            Improving open-source projects, Remote working, Team-working and one commitment at a time are my priorities.
-            I can help you to build products, features, and websites. Look through my skills, projects, and experiences. Don&#39;t hesitate to contact me.
+            Hi there, My name is Joffrey NKESHIMANA. I have a bachelor&#39;s degree in computer science. I&#39;m a Full-stack developer on Ruby on Rails, Nextjs, and ReactJS and an open-source enthusiast with a love of clean code,  UI/UX, and accessible design. Pair-programming, problem-solving, and remote working specialist. Fluent in multiple languages, frameworks, and technologies; capable of ramping up quickly and efficiently. My background as a technical trainer, ICT Teacher, and mentor ingrained top-caliber communication skills, allowing me to break down complex technical concepts easily for junior staffers, cross-functional team members, and clients. I can help you to build products, features, and websites. Look through my skills, projects, and experiences. Don&#39;t hesitate to contact me.
             </p>
         </motion.div>
       </div>
