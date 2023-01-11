@@ -12,10 +12,11 @@ const WorkingExperience = () => {
       type:'Full-Time',
       years: 'April 2022 - Now',
       expr:[
-        'Reviewed more than 30 projects',
-        'Gave Feedback more than 50 people',
-        'Team-working',
-        'Remote Work'
+        'Obtained Full Stack Developer Certificate',
+        'Completed the rigorous full-stack remote program where I created multiple projects using React, Ruby on Rails, HTML, NextJS, Sanity.io, Sass,  CSS, and Vanilla Javascript. Pair programmed remotely with other developers from all over the world',
+        'Mentoring and guiding three junior developers in full-stack web development.',
+        'Proposing improvements to code organization to improve code quality and overall performance.',
+        'Leading weekly code review sessions and providing feedback and guidance on best coding practices.',
       ]
     },
     {
@@ -25,11 +26,12 @@ const WorkingExperience = () => {
       type:'Full-Time',
       years: 'Sept 2021 - Now',
       expr:[
-        'Provide technical support and assistance',
-        '2 years of teaching in the Cambridge system',
-        'Designing banners and certificates',
-        'Help Desk',
-        'Classroom management'
+        'Maintaining a positive and productive learning environment and managing student behavior',
+        'Developing lesson plans that align with curriculum standards and incorporate technology in an age-appropriate way',
+        "communicating with parents and guardians about students' progress and technology usage",
+        'Demonstrating ability to integrate technology into your lessons through use of interactive whiteboards, tablets, laptops and educational software',
+        'Classroom management',
+        'Provided individual and small group instruction to support students in mastering technology skills',
       ]
     },
     {
@@ -40,8 +42,10 @@ const WorkingExperience = () => {
       type:'Full-Time',
       expr:[
         'Trained 1000+ people in data management and visualization(MS Access, Advanced Excel, and PowerPoint)',
-        'Implemented a training enrollment system that decreased registration days from 5 days to 2 days and centralized data between agencies.',
-        'Certificate of the best trainer of the year.'
+        'Installed and maintained hardware and software systems.',
+        'Provided technical support and troubleshooting computer and network problems.',
+        'Taught various computer and technology-related classes to individuals and groups of all ages and abilities.',
+        'Developed and delivered training materials, including lesson plans, handouts, and assessments.'
       ]
     },
     {
