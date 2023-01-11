@@ -39,7 +39,7 @@ const ExperienceCard = ({ex}) => {
         <p className='text-blue-400 flex justify-center items-center'><BsStarHalf/> <BsStarHalf/><BsStarHalf/><BsStarHalf/><BsStarHalf/></p>
 
       </div>
-        <ul className='list-disc ml-5 text-lg  text-gray-400 self-start px-8'>
+        <ul className='list-disc ml-5 text-lg  text-gray-400 self-start px-1 md:px-8'>
             {
               ex.expr.map(sk => <li key={sk}>{sk}</li>)
             }
