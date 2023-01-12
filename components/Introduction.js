@@ -23,7 +23,7 @@ const Introduction = () => {
       ? 
       <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 text-[rgb(36,36,36)] self-start " /></button> 
       :
-      <div className="fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-gray-500  text- bg-opacity-70">
+      <div className="fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-gray-500  text- bg-opacity-70  duration-200">
         <div className=" fixed top-0 left-0 bg-blend-overlay right-[15%] es:right-[40%] md:right-[60%] bottom-0  pt-10 pl-10 flex justify-between items-start text-gray-500 bg-[rgb(36,36,36)] pr-5 ">
           <div className="text-xl flex flex-col gap-2 ">
           <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-2 items-center border-b border-gray-500 w-fit px-2 ">
