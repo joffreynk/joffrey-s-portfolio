@@ -93,7 +93,7 @@ const About = () => {
               Biography
             </h5>
             <p className='mt-0 pt-0 text-[18px]  text-gray-400  '>
-            Hi there, My name is Joffrey NKESHIMANA. I have a bachelor&#39;s degree in computer science. I&#39;m a Full-stack developer on Ruby on Rails and  Nextjs. Look through my skills, projects, and experiences. Don&#39;t hesitate to contact me.
+            Hi there, my name is Joffrey NKESHIMANA. I have a bachelor&#39;s degree in computer science. I&#39;m a Full-stack developer on Ruby on Rails and  Nextjs. Look through my skills, projects, and experiences. Don&#39;t hesitate to contact me.
             </p>
         </motion.div>
       </div>

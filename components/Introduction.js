@@ -77,7 +77,7 @@ const Introduction = () => {
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-semibold scroll-px-10  text-gray-400">
           <Typewriter
               words={[
-                  "Hi, there! I'm <Joffrey/>;",
+                  "Hi, there! I'm <Joffrey/>",
                   "Happy to see you here!"
               ]}
               loop={true}

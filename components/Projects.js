@@ -11,7 +11,7 @@ const Projects = () => {
       live:"https://desorgui-car-booking.netlify.app/",
       title: "Booking Car",
       git: "https://github.com/JoffreyNK/final-capstone",
-      descripion: "Car Booking API is a Ruby on Rails API based that allows registered users to book cars. only users of the type admin are allowed to manage vehicles in the system and other simple users can book them them and see their reservations",
+      descripion: "Car Booking API is a Ruby on Rails based API that allows registered users to book cars. Only users of the type admin are allowed to manage vehicles in the system and other simple users can book them them and see their reservations",
     },
     {
       pic: "/projects/book-store.png",
@@ -25,7 +25,7 @@ const Projects = () => {
       live:"https://joffreynk.github.io/ecommerce-site/",
       git: "https://github.com/JoffreyNK/ecommerce-site",
       title: "Ecommerce",
-      descripion: "The Ecommerce site is a project built with HTML, CSS, and JavaScript best practices. It is just the blue print of an ecommerce site with all the necessary features . I can customize and deliver it based on the clients needs.",
+      descripion: "The Ecommerce site is a project built with HTML, CSS, and JavaScript best practices. It is just the blue print of an ecommerce site with all the necessary features. I can customize and deliver it based on the clients needs.",
     },
     {
       pic: "/projects/spacetravelorApp.png",
@@ -39,14 +39,14 @@ const Projects = () => {
       live:"https://joffreynk.github.io/summit/",
       title: "Digital Summit",
       git: "https://github.com/JoffreyNK/summit",
-      descripion: "The Digital Summit is built with JavaScript, HTML, and CSS. It promotes events and let audience now the speakers and agenda of the day. It is dynamic to all media types", 
+      descripion: "The Digital Summit is built with JavaScript, HTML, and CSS. It promotes events and let audience now the speakers and agenda of the day. It is dynamic to all media types.", 
      },
     {
       pic: "/projects/math.png",
       live:"https://math-magicians-by-joffrey.netlify.app/",
       title: "Math Magicians",
       git: "https://github.com/JoffreyNK/math-magicians",
-      descripion: "\"Math magicians\" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: - Make simple calculations. - Read a random math-related quote.",
+      descripion: "\"Math magicians\" is a website for all fans of mathematics. It's a Single Page App (SPA) that allows users to make simple calculations, and read a random math-related quote.",
     },
   ]
   return (
