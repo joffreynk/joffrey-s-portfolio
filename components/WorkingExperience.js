@@ -30,7 +30,7 @@ const WorkingExperience = () => {
         'Developing lesson plans that align with curriculum standards and incorporate technology in an age-appropriate way.',
         "Communicating with parents and guardians about students' progress and technology usage.",
         'Demonstrating ability to integrate technology into your lessons through use of interactive whiteboards, tablets, laptops and educational software.',
-        'Classroom management',
+        'Classroom management.',
         'Provided individual and small group instruction to support students in mastering technology skills.',
       ]
     },
@@ -56,7 +56,7 @@ const WorkingExperience = () => {
       years: 'May 2020 - July 2020',
       expr:[
         'Learned new tech in one month at work place.',
-        'made a full-stack leave management system.'
+        'Made a full-stack leave management system.'
       ]
     }
   ]

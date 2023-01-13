@@ -11,14 +11,14 @@ const Projects = () => {
       live:"https://desorgui-car-booking.netlify.app/",
       title: "Booking Car",
       git: "https://github.com/JoffreyNK/final-capstone",
-      descripion: "Car Booking API is a Ruby on Rails based API that allows registered users to book cars. Only users of the type admin are allowed to manage vehicles in the system and other simple users can book them them and see their reservations",
+      descripion: "Booking Car API is a Ruby on Rails based API that allows registered users to book cars. Only users of the type admin are allowed to manage vehicles in the system and other simple users can book them them and see their reservations",
     },
     {
       pic: "/projects/book-store.png",
       live:"https://jo-book-store.netlify.app/",
       git: "https://github.com/JoffreyNK/book-store",
       title: "Book Store",
-      descripion: "The Book Store App is the app that is built With React, Bootstrap, Redux,  and Book end point API. The user can add, edit, remove, and comment on them. It is public to all users for use",
+      descripion: "The Book Store App is built With React, Bootstrap, Redux,  and Book end point API. The user can add, edit, remove, and comment on books. It is public to all users for use",
     },
     {
       pic: "/projects/ecommerce.png",

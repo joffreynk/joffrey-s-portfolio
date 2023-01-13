@@ -91,7 +91,7 @@ const Introduction = () => {
           <div className="">
           <h2 className=" text-sm uppercase text-gray-500 pb-2 mt-5 tracking-[5px]">
           {/* GREAT APE&#39;S CODE */}
-          code like greate apes
+          code like great apes
         </h2>
           </div>
       </div>
