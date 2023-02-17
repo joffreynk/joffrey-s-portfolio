@@ -14,6 +14,8 @@
 
 - NextJS
 - Tailwind CSS
+- REactJS
+- Sanity.io
 
 
 
