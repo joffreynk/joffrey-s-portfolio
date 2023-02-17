@@ -49,7 +49,7 @@ This project is accessibility tested  on [https://www.w3.org/WAI/](https://www.w
 
 - GitHub: [@joffreynk](https://github.com/JoffreyNK)
 - Twitter: [@joffreynk](https://twitter.com/home)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joffrey-nkeshimana-15b8aa1b3/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joffreynk/)
 
 
 ## 🤝 Contributing
