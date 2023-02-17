@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Joffreyùs portfolio
+# Joffrey's portfolio
 
 > This project is the practice of NextJS,and Tailwind CSS best practices. It is dynamic for mobile and desktop users and interactive menu on mobile devices.
 > I added the functionality of checking more about each project.  To open it you click on see project and to close it you click on X button on top right 
